@@ -1,7 +1,33 @@
-.logo img{
-    height: 50px;
-    width: 50px;
-    position: relative;
- left: 5%;
- margin-top: 50px;
+body{margin: 0%;
+    font-family: 'Poppins', sans-serif;}
+
+h1{
+    font-size:40px;
+}
+.name_highlight{
+    color: goldenrod;
+}
+.half-width{
+    width: 30%;
+    float: left;
+    margin-left:5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 1000px;
+}
+.fb-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 20px;
+    border-radius: 7px;
+    color:wheat;
+    font-weight: 700;
 }
